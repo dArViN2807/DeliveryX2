@@ -706,12 +706,14 @@
   .right-8 {
     display: flex;
     position: absolute;
-    top: 5560px;
+    top: 7750px;
     left: 800px;
+    z-index: 991;
     .left-phone {
       background-image: url(/images/Phone1.png);
       height: 712px;
       width: 500px;
+      background-clip: border-box;
       background-size: cover;
       background-position: center;
       right: 550px;
@@ -726,7 +728,7 @@
       position: absolute;
       right: -320px;
       top: -10px;
-      z-index: 1000;
+      z-index: 10;
     }
   }
   .page-8 {
@@ -944,6 +946,148 @@
         text-align: center;
         color: #ff5634;
       }
+    }
+  }
+  .food {
+    margin-top: 400px;
+    .food_top {
+      display: flex;
+      justify-content: space-between;
+      .food_top_left {
+        background-color: #ff5634;
+        width: 598px;
+        height: 689px;
+        position: relative;
+        border-radius: 30px;
+        .food_yandexmap {
+          position: absolute;
+          top: 70px;
+          left: 60px;
+        }
+        .food_boy {
+          position: absolute;
+          top: 224px;
+          left: 197px;
+          z-index: 1;
+        }
+      }
+      .food_top_right {
+        margin-left: 55px;
+        h2 {
+          font-weight: 700;
+          font-size: 44px;
+          line-height: 54px;
+          color: #121212;
+          width: 480px;
+          margin-top: 200px;
+        }
+        p {
+          width: 545px;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 30px;
+          color: #656565;
+          margin-top: 10px;
+        }
+        .iphone {
+          display: flex;
+          margin-top: 33px;
+          div {
+            p {
+              margin-top: 14px;
+            }
+          }
+        }
+      }
+    }
+    .food_bottom {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 200px;
+      .food_bottom_left {
+        .text {
+          margin-top: 200px;
+        }
+        h2 {
+          font-weight: 400;
+          font-size: 44px;
+          line-height: 54px;
+          color: #121212;
+        }
+        .tect {
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 30px;
+          margin-top: 16px;
+          width: 545px;
+          color: #656565;
+        }
+        .text2 {
+          font-weight: 400;
+          font-size: 22px;
+          line-height: 30px;
+          transform: translate(200px, -35px);
+          color: #656565;
+        }
+        .food_salephone {
+          display: flex;
+          margin-top: 30px;
+          h3 {
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 34px;
+            color: #121212;
+          }
+          .item {
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 30px;
+            color: #656565;
+            transform: translateY(14px);
+          }
+          .item_content {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            color: #656565;
+            transform: translateX(150px);
+          }
+        }
+      }
+      .food_bottom_right {
+        background-color: #ff5634;
+        width: 598px;
+        height: 689px;
+        position: relative;
+        border-radius: 30px;
+        .food_buy {
+          position: absolute;
+          top: 70px;
+          right: 60px;
+        }
+        .food_burger {
+          position: absolute;
+          top: 229px;
+          left: 60px;
+          z-index: 1;
+        }
+      }
+    }
+  }
+
+  .btn {
+    background-color: #fff;
+    border: 1px solid #ededed;
+    border-radius: 10px;
+    padding: 26px 35px;
+    box-shadow: 0 0 5px #ff5634;
+    &:hover {
+      background-color: #ff5634;
+      color: #fff;
+    }
+    &:active {
+      background-color: #ff563400;
+      color: aqua;
     }
   }
 }

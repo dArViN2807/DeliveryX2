@@ -691,13 +691,15 @@
 .container .right-8 {
   display: flex;
   position: absolute;
-  top: 5560px;
+  top: 7750px;
   left: 800px;
+  z-index: 991;
 }
 .container .right-8 .left-phone {
   background-image: url(/images/Phone1.png);
   height: 712px;
   width: 500px;
+  background-clip: border-box;
   background-size: cover;
   background-position: center;
   right: 550px;
@@ -712,7 +714,7 @@
   position: absolute;
   right: -320px;
   top: -10px;
-  z-index: 1000;
+  z-index: 10;
 }
 .container .page-8 {
   display: flex;
@@ -930,4 +932,141 @@
   line-height: 30px;
   text-align: center;
   color: #ff5634;
+}
+.container .food {
+  margin-top: 400px;
+}
+.container .food .food_top {
+  display: flex;
+  justify-content: space-between;
+}
+.container .food .food_top .food_top_left {
+  background-color: #ff5634;
+  width: 598px;
+  height: 689px;
+  position: relative;
+  border-radius: 30px;
+}
+.container .food .food_top .food_top_left .food_yandexmap {
+  position: absolute;
+  top: 70px;
+  left: 60px;
+}
+.container .food .food_top .food_top_left .food_boy {
+  position: absolute;
+  top: 224px;
+  left: 197px;
+  z-index: 1;
+}
+.container .food .food_top .food_top_right {
+  margin-left: 55px;
+}
+.container .food .food_top .food_top_right h2 {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 54px;
+  color: #121212;
+  width: 480px;
+  margin-top: 200px;
+}
+.container .food .food_top .food_top_right p {
+  width: 545px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #656565;
+  margin-top: 10px;
+}
+.container .food .food_top .food_top_right .iphone {
+  display: flex;
+  margin-top: 33px;
+}
+.container .food .food_top .food_top_right .iphone div p {
+  margin-top: 14px;
+}
+.container .food .food_bottom {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 200px;
+}
+.container .food .food_bottom .food_bottom_left .text {
+  margin-top: 200px;
+}
+.container .food .food_bottom .food_bottom_left h2 {
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 54px;
+  color: #121212;
+}
+.container .food .food_bottom .food_bottom_left .tect {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 16px;
+  width: 545px;
+  color: #656565;
+}
+.container .food .food_bottom .food_bottom_left .text2 {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+  transform: translate(200px, -35px);
+  color: #656565;
+}
+.container .food .food_bottom .food_bottom_left .food_salephone {
+  display: flex;
+  margin-top: 30px;
+}
+.container .food .food_bottom .food_bottom_left .food_salephone h3 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  color: #121212;
+}
+.container .food .food_bottom .food_bottom_left .food_salephone .item {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 30px;
+  color: #656565;
+  transform: translateY(14px);
+}
+.container .food .food_bottom .food_bottom_left .food_salephone .item_content {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #656565;
+  transform: translateX(150px);
+}
+.container .food .food_bottom .food_bottom_right {
+  background-color: #ff5634;
+  width: 598px;
+  height: 689px;
+  position: relative;
+  border-radius: 30px;
+}
+.container .food .food_bottom .food_bottom_right .food_buy {
+  position: absolute;
+  top: 70px;
+  right: 60px;
+}
+.container .food .food_bottom .food_bottom_right .food_burger {
+  position: absolute;
+  top: 229px;
+  left: 60px;
+  z-index: 1;
+}
+.container .btn {
+  background-color: #fff;
+  border: 1px solid #ededed;
+  border-radius: 10px;
+  padding: 26px 35px;
+  box-shadow: 0 0 5px #ff5634;
+}
+.container .btn:hover {
+  background-color: #ff5634;
+  color: #fff;
+}
+.container .btn:active {
+  background-color: rgba(255, 86, 52, 0);
+  color: aqua;
 }/*# sourceMappingURL=style.css.map */
